@@ -1,4 +1,3 @@
-
 let string = " ";
 let newStringArr = [];
 let buttonStart = document.querySelector(".start");

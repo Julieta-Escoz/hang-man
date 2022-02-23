@@ -1,4 +1,3 @@
-
 let string = " ";
 let newStringArr = [];
 let buttonStart = document.querySelector(".start");
@@ -36,9 +35,9 @@ function validation() {
 
     for (i = 0; i < string.length; i++) {
 
-        if (string.substring(i, i + 1).includes(input.value)) {
+        if (string.substring(i, i + 1).includes(input.value.toLowerCase())) {
 
-            console.log(input.value.toLowerCase());
+            console.log(input.value);
             returnWord.textContent = returnWord.textContent.replaceAt(i, input.value.toLowerCase());
         }
     }

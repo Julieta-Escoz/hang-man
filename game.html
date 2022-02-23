@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Hangman</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <header>
+        <h1>Hangman</h1>
+        <nav name="nav-var">
+            <ul>
+                <li><a href="index.html" class="home">Home</a></li>
+                <li><a href="game.html" >Jugar</a></li>
+                <li><a href="difficulty.html">Dificultad</a></li>
+                <li><a href="save-words.html">Agregar Palabras</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <div class="game">
+        <canvas class="hangman" width="400" height="500"></canvas>
+        <br>
+        <div class="wordBox">
+            <button type="submit" class="start">Start!!</button>
+            <h3 class="word-result"></h3>
+            <br>
+            <input class="chart"></input>
+            <button type="submit" class="send">Enviar</button>
+
+            <h2 class="game-status"> </h2>
+            <h4 class="words-wrong"></h4>
+            <h3 class="word-random"></h3>
+        </div>
+    </div>
+
+    <br>
+
+    <footer>
+        <h4>Alura Challenge - Oracle ONE</h4>
+        <h4>Desarrollado por Julieta Escoz</h4>
+    </footer>
+
+    <script src="canvas-js.js"></script>
+    <script src="lvl.js"></script>
+    <script src="script.js"></script>
+
+</body>

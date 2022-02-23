@@ -1,0 +1,102 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color: lightYellow;
+}
+
+h1{
+    color: beige;
+    font-size: 32px;
+    text-align: center;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    
+}
+
+header{
+    background-color: rgb(250, 221, 56);
+    margin-bottom: 5px;
+    border: 6px solid rgba(241, 253, 78, 0.37);
+    border-radius: 6px;
+    color: rgb(56, 56, 55); 
+}
+
+.nav-var{
+    font-size: 16px;
+
+}
+a{
+    text-decoration: none;
+    
+}
+
+.hangman{
+    display: flex;
+    align-content: space-around;
+}
+
+.chart{
+    height: 26px;
+    width: 26px;
+    font-size: 24px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+li{
+    color: lightcoral;
+}
+
+.word-result{
+    font-size: 24px;
+    letter-spacing: 6px;
+}
+.wordBox{
+    margin: 40px;
+}
+    
+.game{
+    display: flex;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+button{
+    margin: 10px;
+    border: 2px, solid;
+    border-radius: 5px;
+
+    background-color:aquamarine;
+    font-weight: bold;
+}
+.start{
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    color: grey;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+}
+h4{
+    margin-right: 40px;
+}
+
+.lvl{
+    text-align: center;
+    margin: 50px;
+}
+.main{
+    margin: 90px;
+    text-align: center;
+}

@@ -38,8 +38,8 @@ function validation() {
 
         if (string.substring(i, i + 1).includes(input.value)) {
 
-            console.log(input.value);
-            returnWord.textContent = returnWord.textContent.replaceAt(i, input.value);
+            console.log(input.value.toLowerCase());
+            returnWord.textContent = returnWord.textContent.replaceAt(i, input.value.toLowerCase());
         }
     }
 
@@ -47,7 +47,7 @@ function validation() {
         gameStatus.textContent = "Felicitaciones, has ganado!!";
     }
 
-    if (!string.includes(input.value)) {
+    if (!string.includes(input.value.toLowerCase())) {
 
         returnWrongWords.textContent = returnWrongWords.textContent + input.value + " - ";
         bodyPart(mistakes);
